@@ -3,8 +3,8 @@ package singleton;
 public class Main {
     public static void main(String[] args) {
 
-        Singleton instance1 = Singleton.getInstance();
-        Singleton instance2 = Singleton.getInstance();
+        A instance1 = A.getInstance();
+        A instance2 = A.getInstance();
 
         System.out.println(instance1 == instance2); // prints "true"
         instance1.showMessage();
