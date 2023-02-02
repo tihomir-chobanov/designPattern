@@ -12,11 +12,10 @@ public class Main {
         System.out.println("Hashcode of x is " + instance1.hashCode());
         System.out.println("Hashcode of y is " + instance2.hashCode());
 
-
         if (instance1 == instance2) {
-            System.out.println("Three objects point to the same memory location on the heap i.e, to the same object");
+            System.out.println("Two objects point to the same memory location on the heap i.e, to the same object");
         } else {
-            System.out.println("Three objects DO NOT point to the same memory location on the heap");
+            System.out.println("Two objects DO NOT point to the same memory location on the heap");
         }
     }
 
